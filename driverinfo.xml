@@ -1,0 +1,92 @@
+<driver>
+	<driverinfo name="HS-USB Driver" driverfolder="all">
+		<cdrom path="drivers/adb_driver/">
+			<copy folder="Driver/"/>
+			<copy folder="hotfix/"/>
+			<copy file="7z.dll"/>
+			<copy file="7z.exe"/>
+			<copy file="devsetup32.exe"/>
+			<copy file="devsetup64.exe"/>
+			<copy file="DriverSetup.exe"/>
+			<copy file="DriverUninstall.exe"/>
+			<copy file="extractDirver.bat"/>
+			<copy file="extractHotfix.bat"/>
+			<copy file="LocateDevice.dll"/>
+		</cdrom>
+		<vidinfo vid="12d1" manufactory="Qualcomm's Configuration">
+			PnPUtil -i -a msmdm.inf
+			PnPUtil -i -a qcmdm.inf              
+		        PnPUtil -i -a qcser.inf
+			
+		        <pidinfo pid="1030"/>
+			<pidinfo pid="1031"/>
+			<pidinfo pid="1034"/>
+			<pidinfo pid="1035"/>
+			<pidinfo pid="1037"/>
+			<pidinfo pid="1038"/>
+			<pidinfo pid="1039"/>
+			<pidinfo pid="1050"/>
+			<pidinfo pid="1051"/>
+			<pidinfo pid="1052"/>
+			<pidinfo pid="1054"/>
+			<pidinfo pid="1055"/>
+			<pidinfo pid="1056"/>
+			<pidinfo pid="1501"/>
+			<pidinfo pid="1502"/>
+			<pidinfo pid="1802"/>
+			<pidinfo pid="1803"/>
+			<pidinfo pid="1804"/>
+			<pidinfo pid="1805"/>
+			<pidinfo pid="1010"/>
+			<pidinfo pid="1011"/>
+			<pidinfo pid="101d"/>
+			<pidinfo pid="101e"/>
+			<pidinfo pid="3601"/>
+			<pidinfo pid="3610"/>
+			<pidinfo pid="3611"/>
+			<pidinfo pid="3612"/>
+			<pidinfo pid="3613"/>
+			<pidinfo pid="3614"/>
+			<pidinfo pid="3616"/>
+			<pidinfo pid="3617"/>
+			<pidinfo pid="3618"/>
+			<pidinfo pid="3619"/>
+			<pidinfo pid="3622"/>
+			<pidinfo pid="3629"/>
+			<pidinfo pid="360a"/>
+			<pidinfo pid="360e"/>
+			<pidinfo pid="361e"/>
+			<pidinfo pid="360f"/>
+			<pidinfo pid="361f"/>
+			
+			
+			<pidinfo pid="1073"/>
+			<pidinfo pid="1074"/>
+			<pidinfo pid="1075"/>
+			<pidinfo pid="1076"/>
+			<pidinfo pid="1077"/>
+			<pidinfo pid="1077"/>
+			<pidinfo pid="1078"/>
+			<pidinfo pid="1079"/>
+			<pidinfo pid="107A"/>
+			<pidinfo pid="107B"/>
+			<pidinfo pid="107C"/>
+			
+			<pidinfo pid="1080"/>
+			<pidinfo pid="1081"/>
+			<pidinfo pid="1058"/>
+			
+			<pidinfo pid="2606"/>
+			<pidinfo pid="2607"/>
+			<pidinfo pid="2608"/>
+			<pidinfo pid="2609"/>
+			
+			<pidinfo pid="2498"/>
+			<pidinfo pid="259B"/>
+			<pidinfo pid="259D"/>
+			<pidinfo pid="2601"/>
+			<pidinfo pid="2603"/>	
+			
+		</vidinfo>
+	</driverinfo>
+</driver>
